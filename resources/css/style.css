@@ -1,3 +1,4 @@
+/*div border declaration for design purposes only */
 
 div {
   border: 0px solid red;
@@ -8,6 +9,10 @@ body {
   color: seashell;
   font-family: Helvetica;
   font-size: 22px;
+}
+
+a:link, a:visited, a:hover, a:active{
+  color: seashell;
 }
 
 .header {
@@ -34,14 +39,14 @@ nav span {
   text-decoration: underline;
 }
 
-.container {
+#mission {
   display: flex;
   margin: 0 auto;
-  padding-top: 69px;
+  padding-top: 60px;
   justify-content: center;
 }
 
-#mission {
+.mission {
   height: 400px;
   width: 1200px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
@@ -49,12 +54,20 @@ nav span {
   padding-top: 300px;
 }
 
-#missiontext {
+.missiontext {
   margin: 0 auto;
   background-color: black;
 }
 
-.container2 {
+.missiontext h2 {
+  padding-top: 10px;
+}
+
+.missiontext h4 {
+  padding-bottom: 10px;
+}
+
+#tea {
   margin: 0 auto;
   text-align: center;
 }
@@ -76,4 +89,61 @@ nav span {
 
 .teabox {
   width: 300px;
+  height: 275px;
+}
+
+.teaboxtext {
+  width: 300px;
+}
+
+.teaboxtext h4 {
+  padding-top: 10px;
+  margin: 0 auto;
+}
+
+#locations {
+  height: 580px;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+#locations h2 {
+  margin: 0 auto;
+  padding: 80px 0px 15px 0px;
+}
+
+.locationsrow {
+  display: inline-flex;
+  text-align: center;
+  width: 980px;
+  justify-content: space-between;
+}
+
+.locationsbox {
+  opacity: 1;
+  width: 300px;
+  background-color: black;
+}
+
+.locationsbox p {
+  padding-top: 15px;
+}
+
+#footer {
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+
+#footer h2 {
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+#copyright {
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 20px;
 }
