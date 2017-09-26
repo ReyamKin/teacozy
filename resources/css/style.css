@@ -49,7 +49,7 @@ nav span {
 .mission {
   height: 400px;
   width: 1200px;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background: url('../../images/img-mission-background.jpg');
   text-align: center;
   padding-top: 300px;
 }
@@ -106,7 +106,7 @@ nav span {
   width: 1200px;
   margin: 0 auto;
   text-align: center;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background: url('../../images/img-locations-background.jpg');
 }
 
 #locations h2 {
@@ -142,7 +142,7 @@ nav span {
   padding-top: 10px;
 }
 
-#copyright {
+.copyright {
   margin: 0 auto;
   text-align: left;
   padding-left: 20px;
